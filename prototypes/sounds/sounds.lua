@@ -13,6 +13,7 @@ if krastorio.general.getSafeSettingValue("kr-main-menu-song") then
       weight = 666,
     },
     -- -- Ambient
+    --[[
     {
       type = "ambient-sound",
       name = "K2-ambient",
@@ -24,6 +25,7 @@ if krastorio.general.getSafeSettingValue("kr-main-menu-song") then
       track_type = "main-track",
       weight = 666,
     },
+	  ]]--  
   })
 end
 
